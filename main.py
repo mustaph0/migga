@@ -4,9 +4,9 @@ import os
 import json
 
 # --- SETTINGS ---
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-MODEL = "mixtral-8x7b-32768"
+DISCORD_TOKEN = os.getenv("TOKEN")
+GROQ_API_KEY = os.getenv("GROQAPI")
+MODEL = "llama-3.1-8b-instant"
 MAX_MEMORY = 10
 MEMORY_FILE = "memory.json"
 # ----------------
